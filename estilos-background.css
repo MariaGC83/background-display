@@ -1,0 +1,147 @@
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* Iniciación de la propiedad "display" para etiquetas de HTML5 para navegadores antiguos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+
+/*link dentro del html, en customize elegir el tamaño para los textos y los enunciados
+con display=swap se carga antes la fuente y da alternativas. Cargar desde el style ANTES DE RESET y se pone como comentario para organizarte*/
+
+/*@import "reset.css" porque lo meto dentro de la carpeta CSS */
+/*crear varios CSS para los diferentes bloques. por ejm @impor "post.css" que sería la parte
+del article */
+/*otro CSS para los estilos de base de la web
+la hoja definirá los estilos de base de la web y se llamará base y luego hay que importarlo de style
+*/
+.post {
+   width: 75%;
+
+}
+
+
+
+
+
+
+/* Ejercicio display */
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento&display=swap');
+
+.article {
+   font-family: ;
+   width: 760px;
+   height: 125px;
+   margin: 0px;
+   padding: 0px;
+   background-size: 200px;
+   background-image: url(/img/butterflies.png);
+   background-attachment: fixed;
+   background-position: right;
+   background-repeat: no-repeat;
+   text-align: left;
+}
+.article__title {
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: right;
+}
+
+.photoText {
+   background-image: url(/img/book-girl.jpg);
+   width: 369px;
+   height: 107px;
+   color: #ffffff;
+   text-align: justify;
+   text-transform: uppercase;
+   border: 5px;
+   border-radius: 4px;
+   padding: 25px;
+   background-color: #E0209F;
+   background-repeat: no-repeat;
+   background-size: 200px 100px;
+   
+   
+   
+}
+.article__title--size-m {
+
+}
+
+p {
+   font-family: ;
+}
+
+.personalInformation {
+   margin: 0px;
+   padding: 30px;
+   background-color: ;
+   background-image: url(/img/children.png);
+   background-origin: content-box;
+   background-size: 150px 169px;
+   background-repeat: no-repeat;
+   text-align: left;
+
+}
+
+.choose{
+   color: #7a4842;
+} 
+
+.send {
+   width: 150px;
+   height: 45px;
+   color: #ffffff;
+   text-align: center;
+   background-color: #0091ff;
+}
+
+
+
